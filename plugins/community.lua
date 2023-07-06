@@ -1,8 +1,6 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.rose-pine" },
-  { import = "astrocommunity.colorscheme.kanagawa" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.media.presence-nvim" },
   { import = "astrocommunity.pack.typescript" },
@@ -14,4 +12,5 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.nix" },
 }
